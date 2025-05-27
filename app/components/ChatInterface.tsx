@@ -110,6 +110,8 @@ export default function ChatInterface() {
 
   return (
     <div className="w-full max-w-4xl mx-auto">
+      <p className='text-center mb-3 text-5xl text-[#64401e] font-bold'>Welcome To Gouda!</p>
+      <p className='text-center mb-8 text-2xl text-[#64401e]'>A Bad AI</p>
       {/* Chat Container */}
       <div className="bg-[#d7c3aa] rounded-xl shadow-lg min-h-[500px] flex flex-col">
         {/* Messages Area */}
