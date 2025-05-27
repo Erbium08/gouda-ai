@@ -22,6 +22,7 @@ const blogPosts: BlogPost[] = [
 export default function UpdatesPage() {
   return (
     <div className="min-h-screen bg-[#f5f0e8] py-8">
+      <meta name="google-adsense-account" content="ca-pub-2629682720782125"></meta>
       <div className="max-w-6xl mx-auto px-4">
         <h1 className="text-4xl font-bold text-[#64401e] text-center mb-12">
           Latest Updates

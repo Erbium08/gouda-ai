@@ -57,6 +57,7 @@ export default function BlogPostPage({ params }: Props) {
 
   return (
     <div className="min-h-screen bg-[#f5f0e8] py-8">
+      <meta name="google-adsense-account" content="ca-pub-2629682720782125"></meta>
       <div className="max-w-4xl mx-auto px-4">
         <Link 
           href="/updates"

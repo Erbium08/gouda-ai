@@ -1,6 +1,7 @@
 export default function AccountPage() {
   return (
     <div className="min-h-screen bg-[#f5f0e8] py-8">
+      <meta name="google-adsense-account" content="ca-pub-2629682720782125"></meta>
       <div className="max-w-4xl mx-auto px-4">
         <div className="bg-white rounded-xl shadow-lg p-8">
           <h1 className="text-3xl font-bold text-[#64401e] text-center mb-8">

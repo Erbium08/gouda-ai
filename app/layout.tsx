@@ -4,6 +4,8 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Analytics } from "@vercel/analytics/react";
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,6 +21,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <SpeedInsights />
+      <Analytics />
       <body className={`${inter.className} min-h-screen bg-[#f5f0e8] flex flex-col`}>
         <Navbar />
         <main className="flex-1">
