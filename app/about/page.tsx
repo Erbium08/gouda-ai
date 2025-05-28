@@ -17,7 +17,12 @@ export default function AboutPage() {
             
             <p>
               Whilst I continue to work on coherent AI projects as well as an equally bad image generator, in the mean time I thought I should give access to the treasure
-              trove of responses Gouda-XS1 can give.
+              trove of responses Gouda-XS1 can give. The responses are often funny and while some interpret Gouda to be just a bad ai, we have turned this into a deliberate feature
+              for all to enjoy.
+            </p>
+            <p>
+              All revenue earned by gouda will go directly into the development of more models and improvements to the site and API. Maybe we will even branch out into making 
+              AI's that serve more purpose than just humour through gibberish.
             </p>
           </div>
         </div>

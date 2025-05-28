@@ -23,7 +23,11 @@ const blogPosts: { [key: string]: BlogPost } = {
       
       <p>
       Gouda is a GPT-2 style transformer when evaluated on HellaSwag evaluation model, it scores 24%. This means it is worse than just guessing. Humans score 95% and models
-      of a similar size typically score ~30%
+      of a similar size typically score ~30%.
+      </p>
+      <p>
+      Please note Gouda also has not been finetuned, it has only undergone pre-training and while we do plan to eventually tune it into a chatbot
+      as of now thats not necessary due to the fact that it is essentially generating tokens randomly at the moment.
       </p>
       <h2>Why Gouda?</h2>
       <ul>
