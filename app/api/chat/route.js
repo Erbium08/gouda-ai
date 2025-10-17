@@ -1,12 +1,10 @@
-// app/api/chat/route.js
-
 export async function POST(request) {
   try {
     const body = await request.json();
     const {
       message,
       model_name = 'gouda0.0.1',
-      max_tokens = 100,
+      max_tokens = 200,
       context = [],
     } = body;
 

@@ -1,4 +1,3 @@
-// app/components/ChatInterface.tsx
 'use client'
 
 import { useState } from 'react'
@@ -41,7 +40,6 @@ export default function ChatInterface() {
     setIsLoading(true)
 
     try {
-      // Call your API here
       const response = await fetch('/api/chat', {
         method: 'POST',
         headers: {
